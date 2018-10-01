@@ -141,14 +141,14 @@ export default class LoginScreen extends Component<Props, State> {
           </form>
           <div className="LoginScreen-help">
             <a
-              href="https://www.gokgs.com/"
+              href="https://beta.gokgs.com/"
               target="_blank"
               rel="noopener noreferrer">
               Sign up
             </a>
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <a
-              href="https://www.gokgs.com/password.jsp"
+              href="https://beta.gokgs.com/password.jsp"
               target="_blank"
               rel="noopener noreferrer">
               Forgot password
@@ -170,7 +170,7 @@ export default class LoginScreen extends Component<Props, State> {
             </a>
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <a
-              href="https://www.gokgs.com/"
+              href="https://beta.gokgs.com/"
               target="_blank"
               rel="noopener noreferrer">
               Official KGS

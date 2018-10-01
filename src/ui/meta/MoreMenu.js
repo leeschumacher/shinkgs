@@ -47,7 +47,7 @@ export default class MoreMenu extends Component<Props> {
             </a>
             <a
               className="MoreMenu-item"
-              href="https://www.gokgs.com/"
+              href="https://beta.gokgs.com/"
               target="_blank"
               rel="noopener noreferrer">
               Official KGS

@@ -22,7 +22,7 @@ app.use(wwwRedirect);
 app.use(express.static(__dirname));
 
 var proxy = httpProxy.createProxyServer({
-  target: 'https://www.gokgs.com',
+  target: 'https://beta.gokgs.com',
   changeOrigin: true
 });
 

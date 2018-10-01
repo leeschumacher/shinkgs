@@ -45,7 +45,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "https://www.gokgs.com",
+  "proxy": "https://beta.gokgs.com",
   "browserslist": {
     "development": [
       "last 2 chrome versions",

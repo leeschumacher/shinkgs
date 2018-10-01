@@ -43,16 +43,7 @@ export class KgsClient {
     if (process.env.REACT_APP_API_URL) {
       this._apiUrl = process.env.REACT_APP_API_URL;
     } else {
-      let isProd = window.location.host.indexOf("gokgs.com") !== -1;
-      let isSafari =
-        window.navigator.vendor &&
-        window.navigator.vendor.indexOf("Apple") > -1;
-      if (isProd || !isSafari) {
-        this._apiUrl = "https://www.gokgs.com/json-cors/access";
-      } else {
-        // Dev proxy for Safari
-        this._apiUrl = "/json/access";
-      }
+      this._apiUrl = "/json/access";
     }
     console.log("[KGS Client] Using endpoint " + this._apiUrl);
   }
