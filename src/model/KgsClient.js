@@ -43,7 +43,7 @@ export class KgsClient {
     if (process.env.REACT_APP_API_URL) {
       this._apiUrl = process.env.REACT_APP_API_URL;
     } else {
-      this._apiUrl = "/json/access";
+      this._apiUrl = "https://beta.gokgs.com/json/access";
     }
     console.log("[KGS Client] Using endpoint " + this._apiUrl);
   }
